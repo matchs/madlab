@@ -2,7 +2,7 @@ function _clone(node) {
     return Object.assign(new Node(), node);
 }
 
-function Tree(_root) {
+function BST(_root) {
     this.root = _clone(_root);
 
     this.insert = function(_node_, _into_) {
